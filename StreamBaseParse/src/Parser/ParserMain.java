@@ -14,11 +14,11 @@ public class ParserMain {
 	static final String OUTPUTSTREAM = "output-stream";
 	static final String BOX = "box";
 	static final String JOIN = "join";
-	
-	File	fXmlFile = new File("Query1.sbapp");
+
 	
 	
 	public static ArrayList<ArrayList<Elements>>  main(String arg) throws SAXException, ParserConfigurationException {
+//The input of the main function, String arg, should be the name of the .sbapp file that will be parsed			
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();	
 			DocumentBuilder builder = factory.newDocumentBuilder();
 			
